@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36323-zzgodb.g8t4fjq0k9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36323-zzgodb.g8t4fjq0k9/package.tgz",
+        "spec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36323-zzgodb.g8t4fjq0k9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/apm-install-dir-11879-36323-19j7usl.v2durw9udi"
+    ]
+  ],
+  "_from": "../d-11879-36323-zzgodb.g8t4fjq0k9/package.tgz",
+  "_id": "language-yaml-cloudformation@0.3.1",
+  "_inCache": true,
+  "_location": "/language-yaml-cloudformation",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36323-zzgodb.g8t4fjq0k9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36323-zzgodb.g8t4fjq0k9/package.tgz",
+    "spec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36323-zzgodb.g8t4fjq0k9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11879-36323-zzgodb.g8t4fjq0k9/package.tgz",
+  "_shasum": "e69b43617fd15a695dda5d3091cc8bafc1ffb5ed",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36323-zzgodb.g8t4fjq0k9/package.tgz",
+  "_where": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/apm-install-dir-11879-36323-19j7usl.v2durw9udi",
+  "bugs": {
+    "url": "https://github.com/TWinsnes/language-yaml-cloudformation/issues"
+  },
+  "dependencies": {},
+  "description": "YAML CloudFormation language support in Atom",
+  "devDependencies": {
+    "coffeelint": "^1.10.1",
+    "jasmine": "^2.5.3"
+  },
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "http://TWinsnes.github.io/language-yaml-cloudformation",
+  "license": "MIT",
+  "name": "language-yaml-cloudformation",
+  "optionalDependencies": {},
+  "readme": "# YAML CloudFormation language support in Atom\nMaster: [![macOS Build Status](https://travis-ci.org/TWinsnes/language-yaml-cloudformation.svg?branch=master)](https://travis-ci.org/TWinsnes/language-yaml-cloudformation)\n[![Dependency Status](https://david-dm.org/TWinsnes/language-yaml-cloudformation.svg)](https://david-dm.org/TWinsnes/language-yaml-cloudformation)\n\nDev: [![macOS Build Status](https://travis-ci.org/TWinsnes/language-yaml-cloudformation.svg?branch=dev)](https://travis-ci.org/TWinsnes/language-yaml-cloudformation)\n[![Dependency Status](https://david-dm.org/TWinsnes/language-yaml-cloudformation.svg)](https://david-dm.org/TWinsnes/language-yaml-cloudformation)\n\n\nAdds syntax highlighting to YAML CloudFormation files in Atom.\n\nFork from official Atom YAML language pack [Language-YAML](https://github.com/atom/language-yaml)\n\nContributions are greatly appreciated. Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TWinsnes/language-yaml-cloudformation.git"
+  },
+  "version": "0.3.1"
+}

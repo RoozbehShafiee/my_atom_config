@@ -1,0 +1,5 @@
+"*":
+  core:
+    titleBar: "custom-inset"
+  "exception-reporting":
+    userId: "79017a09-f1d2-4d00-afe8-f4e0a8d48ef9"
