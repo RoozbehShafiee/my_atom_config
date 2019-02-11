@@ -1,0 +1,22 @@
+menu: [
+  label: 'Packages'
+  submenu: [
+    label: 'Ansible Galaxy Plus'
+    submenu: [
+      label: 'Role skeleton path A', command: 'ansible-galaxy-plus:skeleton-a'
+    ,
+      label: 'Role skeleton path B', command: 'ansible-galaxy-plus:skeleton-b'
+    ,
+      label: 'Role skeleton path B', command: 'ansible-galaxy-plus:skeleton-c'
+    ]
+  ]
+]
+
+'context-menu':
+  '.tree-view .directory .icon-file-directory, .tree-view .directory .icon-repo': [
+      type: 'separator'
+    ,
+      label: 'Ansible: Create role', command: 'ansible-galaxy-plus:init-role'
+    ,
+      type: 'separator'
+  ]

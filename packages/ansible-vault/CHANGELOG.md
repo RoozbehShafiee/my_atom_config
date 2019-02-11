@@ -1,3 +1,17 @@
+## 0.7.2 - Fixed #35: Plugin doesn't detect ansible.cfg file
+
+## 0.7.1 - Fixed #34: Automatic encrypt stopped working in 0.7.0
+
+## 0.7.0 - Fixed #8: Selection based encrypt/decrypt
+* New algoritm for encrypt/decrypt
+* Fixed #8: Support for single encrypted variables
+
+## 0.6.17 - Fixed #30: Security issue - disabled undo after encryption
+
+## 0.6.16 - Fixed #31: Spaces in path of vault file causes error
+
+## 0.6.15 - Fixed ansible_cfg variable error bug
+
 ## 0.6.11 - Add reverse recursive research of ansible.cfg file
 
 ## 0.6.10 - Fix issue #28 - ansible >= 2.4 breaks ansible.cfg mode

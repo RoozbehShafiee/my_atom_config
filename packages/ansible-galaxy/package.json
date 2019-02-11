@@ -1,0 +1,50 @@
+{
+  "_from": "https://www.atom.io/api/packages/ansible-galaxy/versions/0.2.1/tarball",
+  "_id": "ansible-galaxy@0.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-y7/F/72GkD6vE9SBSz/UQFOKAa4UKqn77r1Fb04F4Qv7WZmDeKFF/XtziU5+eOvbmOhZhdYjVVp8xylhDUh3MQ==",
+  "_location": "/ansible-galaxy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/ansible-galaxy/versions/0.2.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/ansible-galaxy/versions/0.2.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/ansible-galaxy/versions/0.2.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/ansible-galaxy/versions/0.2.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/ansible-galaxy/versions/0.2.1/tarball",
+  "_shasum": "6c888154bbdbad055a874bf4ab69a433a89cd7a3",
+  "_spec": "https://www.atom.io/api/packages/ansible-galaxy/versions/0.2.1/tarball",
+  "_where": "/private/var/folders/0w/ycy9n11s427578yp3jb28_br0000gn/T/apm-install-dir-119111-81777-1he7wqx.emp1",
+  "activationCommands": {
+    "atom-workspace": [
+      "ansible-galaxy:init"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/aioue/ansible-galaxy/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": "2.0.4",
+    "fs-plus": "^2.5.0"
+  },
+  "deprecated": false,
+  "description": "Run ansible-galaxy init to create a new role",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/aioue/ansible-galaxy#readme",
+  "license": "MIT",
+  "main": "./lib/ansible-galaxy",
+  "name": "ansible-galaxy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aioue/ansible-galaxy.git"
+  },
+  "version": "0.2.1"
+}

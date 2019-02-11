@@ -1,47 +1,34 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36180-dq4xp9.vpdrla0pb9/package.tgz",
-        "scope": null,
-        "escapedName": null,
-        "name": null,
-        "rawSpec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36180-dq4xp9.vpdrla0pb9/package.tgz",
-        "spec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36180-dq4xp9.vpdrla0pb9/package.tgz",
-        "type": "local"
-      },
-      "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/apm-install-dir-11879-36180-1ubtn26.dix6y4aemi"
-    ]
-  ],
-  "_from": "../d-11879-36180-dq4xp9.vpdrla0pb9/package.tgz",
-  "_id": "autocomplete-ansible@0.1.22",
-  "_inCache": true,
+  "_from": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball",
+  "_id": "autocomplete-ansible@0.1.24",
+  "_inBundle": false,
+  "_integrity": "sha512-Y1udl6Cc0MaGEnmw51Sy6vPpzv1oYkbTLazoU8TxwNn9eHWvSkSekUv+q8y2fkNlMPqUEjuM//ILqRz9KjtZSQ==",
   "_location": "/autocomplete-ansible",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36180-dq4xp9.vpdrla0pb9/package.tgz",
-    "scope": null,
-    "escapedName": null,
-    "name": null,
-    "rawSpec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36180-dq4xp9.vpdrla0pb9/package.tgz",
-    "spec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36180-dq4xp9.vpdrla0pb9/package.tgz",
-    "type": "local"
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball"
   },
   "_requiredBy": [
-    "#USER"
+    "#USER",
+    "/"
   ],
-  "_resolved": "file:../d-11879-36180-dq4xp9.vpdrla0pb9/package.tgz",
-  "_shasum": "66d6a5ddfc3051554a35304239d4ac9ba5e6f4a5",
-  "_shrinkwrap": null,
-  "_spec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36180-dq4xp9.vpdrla0pb9/package.tgz",
-  "_where": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/apm-install-dir-11879-36180-1ubtn26.dix6y4aemi",
+  "_resolved": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball",
+  "_shasum": "39e6583d38be8f5c5b2c66b9c81e34523445ea4e",
+  "_spec": "https://www.atom.io/api/packages/autocomplete-ansible/versions/0.1.24/tarball",
+  "_where": "/private/var/folders/0w/ycy9n11s427578yp3jb28_br0000gn/T/apm-install-dir-119111-81401-17x62r3.nhlw",
   "bugs": {
     "url": "https://github.com/h-hirokawa/atom-autocomplete-ansible/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "escape-string-regexp": "^1.0.5",
     "fuzzaldrin": "^2.1"
   },
+  "deprecated": false,
   "description": "An autocomplete+ provider for Ansible Playbook",
   "devDependencies": {
     "babel-eslint": "^6.1.0",
@@ -57,7 +44,6 @@
   "license": "MIT",
   "main": "./libs/main",
   "name": "autocomplete-ansible",
-  "optionalDependencies": {},
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
@@ -65,11 +51,9 @@
       }
     }
   },
-  "readme": "# autocomplete-ansible package [![Build Status](https://travis-ci.org/h-hirokawa/atom-autocomplete-ansible.svg?branch=master)](https://travis-ci.org/h-hirokawa/atom-autocomplete-ansible)\n\nAn [autocomplete+](https://github.com/atom/autocomplete-plus) provider for Ansible Playbook.\n\n## Features\n* Autocompletion of Playbook directives & module names.\n* Snippets for module arguments.\n  * **module_name + `r`**: Complete **required** arguments.\n  * **module_name + `a`**: Complete **all** arguments include optional.\n\n![demo](https://cloud.githubusercontent.com/assets/1086022/16838450/1c3d368a-4a04-11e6-9775-64de7bf19dc2.gif)\n\n## Requirements\n* Ansible >= 2.2 and Python 2.7\nor\n* Ansible >= 2.4 and Python >= 3.5\n\n## ToDo\n* Autocompletion of module arguments when the cursor is in module block.\n* Autocompletion of variables/factors.\n",
-  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/h-hirokawa/atom-autocomplete-ansible.git"
   },
-  "version": "0.1.22"
+  "version": "0.1.24"
 }

@@ -1,50 +1,36 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36239-pbv9fe.tr9bhme7b9/package.tgz",
-        "scope": null,
-        "escapedName": null,
-        "name": null,
-        "rawSpec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36239-pbv9fe.tr9bhme7b9/package.tgz",
-        "spec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36239-pbv9fe.tr9bhme7b9/package.tgz",
-        "type": "local"
-      },
-      "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/apm-install-dir-11879-36239-oqh2a1.olmzd26gvi"
-    ]
-  ],
-  "_from": "../d-11879-36239-pbv9fe.tr9bhme7b9/package.tgz",
-  "_id": "ansible-vault@0.6.17",
-  "_inCache": true,
+  "_from": "https://www.atom.io/api/packages/ansible-vault/versions/0.7.8/tarball",
+  "_id": "ansible-vault@0.7.8",
+  "_inBundle": false,
+  "_integrity": "sha512-piG/xqBX0dDC6wSu8ZlQbocD8mXWwgLZM4g2eRRb9lr+gyS86HIcu1DBQVxkTa1cQcokR3RA1SMCX6XQyaXghg==",
   "_location": "/ansible-vault",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36239-pbv9fe.tr9bhme7b9/package.tgz",
-    "scope": null,
-    "escapedName": null,
-    "name": null,
-    "rawSpec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36239-pbv9fe.tr9bhme7b9/package.tgz",
-    "spec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36239-pbv9fe.tr9bhme7b9/package.tgz",
-    "type": "local"
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/ansible-vault/versions/0.7.8/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/ansible-vault/versions/0.7.8/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/ansible-vault/versions/0.7.8/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/ansible-vault/versions/0.7.8/tarball"
   },
   "_requiredBy": [
-    "#USER"
+    "#USER",
+    "/"
   ],
-  "_resolved": "file:../d-11879-36239-pbv9fe.tr9bhme7b9/package.tgz",
-  "_shasum": "2a21d61e5f8329c70d1bf62d7e147ae3baf958f0",
-  "_shrinkwrap": null,
-  "_spec": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/d-11879-36239-pbv9fe.tr9bhme7b9/package.tgz",
-  "_where": "/private/var/folders/tv/t_7xp3v96sjg8yxny42f4gzw0000gn/T/apm-install-dir-11879-36239-oqh2a1.olmzd26gvi",
+  "_resolved": "https://www.atom.io/api/packages/ansible-vault/versions/0.7.8/tarball",
+  "_shasum": "8ac48922c5b27657363548287db70751bd42bb79",
+  "_spec": "https://www.atom.io/api/packages/ansible-vault/versions/0.7.8/tarball",
+  "_where": "/private/var/folders/0w/ycy9n11s427578yp3jb28_br0000gn/T/apm-install-dir-119111-81339-15bjtwo.rser",
   "bugs": {
     "url": "https://github.com/sydro/atom-ansible-vault/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "fs-plus": "^3.0.2",
     "ini": "^1.3.5",
     "path": "^0.12.7"
   },
+  "deprecated": false,
   "description": "Atom Package to decrypt and encrypt ansible-vault file.",
-  "devDependencies": {},
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
@@ -58,12 +44,9 @@
   "license": "MIT",
   "main": "./lib/ansible-vault",
   "name": "ansible-vault",
-  "optionalDependencies": {},
-  "readme": "# Atom ansible-vault package\n\n[![Build Status](https://travis-ci.org/sydro/atom-ansible-vault.svg?branch=master)](https://travis-ci.org/sydro/atom-ansible-vault)\n[![Installs!](https://img.shields.io/apm/dm/ansible-vault.svg?style=flat-square)](https://atom.io/packages/ansible-vault)\n[![Version!](https://img.shields.io/apm/v/ansible-vault.svg?style=flat-square)](https://atom.io/packages/ansible-vault)\n[![License](https://img.shields.io/apm/l/ansible-vault.svg?style=flat-square)](https://github.com/sydro/atom-ansible-vault/blob/master/LICENSE.md)\n[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/white_img.png)](https://www.buymeacoffee.com/sydro)\n\nAtom Package to decrypt and encrypt ansible-vault file.\n\nPress <kbd>ctrl-alt-0</kbd> to encrypt and decrypt file.\n\n**NOTE**: On the first installation, package searches ansible-vault binary in **/usr/local/bin/ansible-vault**.\nIf it isn't in that directory, it's necessary to set absolute path in settings tab.\n\n## Dependencies\n\n* **ansible** (in specific **ansible-vault**)\n\n## Available settings\n\n![Screeshot settings](https://github.com/sydro/atom-ansible-vault/raw/master/images/screenshot-settings.png)\n\n* **ansible-vault binary path**:\n\n  ```\n  The absolute path of ansible-vault binary.\n\n  Default: /usr/local/bin/ansible-vault (pip installation - ubuntu)\n\n  Es: (fedora): /usr/bin/ansible-vault\n  ```\n\n* **Enable automatic de- and encrypt**:\n\n  ```\n  This option enables automatic de/encryt on opening of vault files\n  ```\n\n* **Use vault password file defined in ansible.cfg project**:\n\n  ```\n  If there's ansible.cfg file in opened project, with this option package use it to define vault password file path.\n\n  Es: (ansible.cfg)\n  [defaults]\n  vault_password_file=pass.txt\n  ```\n\n* **Use specific vault password file (NB: ignored if there is an ansible.cfg):**\n\n  ```\n  This option enables the package to use a specific vault password file\n  for any de/encrytion actions.\n  ```\n\n  **NB:** if there is an ansible.cfg, ansible-vault (>= 2.4) ignore --vault-password-file option.\n\n- **Vault password file path:**\n\n  ```\n  The absolute path of vault password file. It is used when previous flag is checked.\n  ```\n\n**NOTE**: to use vault password file, you must set ansible-vault binary path.\n\n## Screenshot\n\n![Screeshot password](https://github.com/sydro/atom-ansible-vault/raw/master/images/screenshot-password.png)\n\n![Screeshot encryption ok](https://github.com/sydro/atom-ansible-vault/raw/master/images/screenshot-encryption.png)\n",
-  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sydro/atom-ansible-vault.git"
   },
-  "version": "0.6.17"
+  "version": "0.7.8"
 }

@@ -1,5 +1,19 @@
 "*":
+  "ansible-galaxy-plus":
+    roleSkeleton:
+      choice: "skeleton-a"
+  "atom-ide-ui":
+    "atom-ide-code-format": {}
+    "atom-ide-terminal":
+      allowTransparency: true
+      cursorBlink: true
+  "autocomplete-python":
+    useKite: false
   core:
+    telemetryConsent: "limited"
     titleBar: "custom-inset"
   "exception-reporting":
     userId: "79017a09-f1d2-4d00-afe8-f4e0a8d48ef9"
+  "platformio-ide-terminal":
+    style:
+      theme: "homebrew"
